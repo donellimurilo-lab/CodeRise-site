@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CodeRise — criação de sites e experiências digitais para empresas.">
+  <title>CodeRise | Experiências Digitais</title>
+  <meta name="description" content="A CodeRise cria sites, landing pages, lojas virtuais e experiências digitais modernas para empresas.">
+  <meta name="keywords" content="criação de sites, desenvolvimento web, landing page, e-commerce, SEO, CodeRise">
+  <meta name="author" content="CodeRise">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ACESSIBILIDADE -->
+<div class="accessibility">
+
+  <button
+    id="accessibilityBtn"
+    class="accessibility-btn"
+    type="button"
+    aria-label="Abrir opções de acessibilidade"
+    aria-expanded="false"
+  >
+    ♿
+  </button>
+
+  <div
+    id="accessibilityPanel"
+    class="accessibility-panel"
+    aria-hidden="true"
+  >
+
+    <h3>Acessibilidade</h3>
+
+    <button id="increaseText" type="button">
+      🔎 Aumentar texto
+    </button>
+
+    <button id="decreaseText" type="button">
+      🔍 Diminuir texto
+    </button>
+
+    <button id="highContrast" type="button">
+      ◐ Alto contraste
+    </button>
+
+    <button id="highlightLinks" type="button">
+      🔗 Destacar links
+    </button>
+
+    <button id="reduceMotion" type="button">
+      ⏸ Reduzir animações
+    </button>
+
+    <button id="resetAccessibility" type="button">
+      ↺ Restaurar padrão
+    </button>
+
+  </div>
+
+</div>
+
+  <header class="header">
+    <a href="#inicio" class="logo" aria-label="CodeRise início">
+      <img src="images/logo.png" alt= "CodeRise" width="150">
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+    <nav class="nav">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Processo</a>
+      <a href="#orcamento">Orçamento</a>
+      <a
+  href="https://wa.me/5511970171040?text=Olá%2C%20CodeRise!%20Gostaria%20de%20conhecer%20os%20serviços."
+  class="btn secondary"
+  target="_blank"
+>
+  Solicitar orçamento
+</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <p class="eyebrow">DESENVOLVIMENTO WEB • TECNOLOGIA • INOVAÇÃO</p>
+        <h1>Transformando sua ideia em <span>experiências digitais.</span></h1>
+        <p class="hero-text">
+          Criamos sites modernos, rápidos e personalizados para empresas que querem crescer no ambiente digital.
+        </p>
+        <div class="hero-buttons">
+          <a href="#servicos" class="btn primary">Conheça nossos serviços</a>
+          <a href="#orcamento" class="btn secondary">Fale com a CodeRise</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="window-top">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="code-lines">
+          <p><b>&lt;CodeRise&gt;</b></p>
+          <p class="indent">const <i>ideia</i> = "seu negócio";</p>
+          <p class="indent">const <i>resultado</i> = criar(ideia);</p>
+          <p><b>&lt;/CodeRise&gt;</b></p>
+        </div>
+        <div class="pulse"></div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="section-title">
+        <p class="eyebrow">01 — QUEM SOMOS</p>
+        <h2>Tecnologia que transforma <span>ideias.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            A <strong>CodeRise</strong> é uma empresa especializada na criação de sites modernos
+            e personalizados para empresas, empreendedores e profissionais.
+          </p>
+          <p>
+            Unimos design, programação e estratégia para criar experiências digitais que ajudam
+            nossos clientes a fortalecer sua marca e conquistar novos clientes.
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>100%</strong><small>Personalizado</small></div>
+          <div class="stat"><strong>6</strong><small>Soluções digitais</small></div>
+          <div class="stat"><strong>24/7</strong><small>Presença online</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section dark-section">
+      <div class="section-title">
+        <p class="eyebrow">02 — NOSSOS SERVIÇOS</p>
+        <h2>Soluções para o seu <span>negócio.</span></h2>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="images/site.png" alt="Site Institucional">
+
+          <div class="service-content">
+            <div class="icon">🌐</div>
+            <h3>Site Institucional</h3>
+            <p> 
+            Site moderno e profissional para apresentar sua empresa, seus serviços e sua marca na internet.
+            </p>
+            <strong>A partir de R$ 1.200,00</strong>
+            <a href="#orcamento" class="service-button">Solicitar orçamento →</a>
+        </div>
+        </article>
+
+        <article class="service-card">
+          <img src="images/landing.png" alt="Landing Page">
+          
+          <div class="service-content">
+            <div class="icon">◉</div>
+            <h3>Landing Page</h3>
+            <p>
+              Página criada para campanhas, divulgação de produtos e geração de novos clientes.
+            </p>
+            <strong>A partir de R$ 600,00</strong>
+            <a href="#orcamento" class="service-button">Solicitar orçamento →</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="images/loja.png" alt="Loja Virtual">
+         
+          <div class="service-content">
+            <div class="icon">🛒</div>
+            <h3>Loja Virtual</h3>
+            <p>
+              E-commerce completo para sua empresa vender produtos pela internet.
+            </p>
+            <strong>A partir de R$ 3.000,00</strong>
+            <a href="#orcamento" class="service-button">Solicitar orçamento →</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="images/redesign.png" alt="Redesign de Site">
+          <div class="service-content">
+          
+            <div class="icon">↻</div>
+            <h3>Redesign de Site</h3>
+            <p>
+              Modernização do visual e da experiência de um site que já existe.
+            </p>
+            <strong>A partir de R$ 1.400,00</strong>
+            <a href="#orcamento" class="service-button">Solicitar orçamento →</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="images/manutencao.png" alt="Manutenção de Site">
+          <div class="service-content">
+            <div class="icon">⌘</div>
+            <h3>Manutenção</h3>
+            <p>Atualizações, correções e suporte técnico para manter seu site funcionando corretamente.</p>
+            <strong>R$ 300,00/mês</strong>
+            <a href="#orcamento" class="service-button">Solicitar orçamento →</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="images/seo.png" alt="Otimização SEO">
+          <div class="service-content">
+            <div class="icon">↗</div>
+            <h3>Otimização SEO</h3>
+            <p>Otimização para melhorar a visibilidade do seu site nos mecanismos de busca.</p>
+            <strong>A partir de R$ 1000</strong>
+            <a href="#orcamento" class="service-button">Solicitar orçamento →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="processo" class="section">
+      <div class="section-title">
+        <p class="eyebrow">03 —  COMO FUNCIONA</p>
+        <h2>Da ideia ao <span>resultado.</span></h2>
+      </div>
+
+      <div class="process">
+        <div class="process-item"><span>01</span><h3>Briefing</h3><p>Entendemos sua empresa, público e objetivos.</p></div>
+        <div class="process-item"><span>02</span><h3>Design</h3><p>Criamos a identidade visual e a experiência da página.</p></div>
+        <div class="process-item"><span>03</span><h3>Desenvolvimento</h3><p>Transformamos o projeto em um site funcional e responsivo.</p></div>
+        <div class="process-item"><span>04</span><h3>Entrega</h3><p>Publicamos o site e oferecemos suporte e manutenção.</p></div>
+      </div>
+    </section>
+
+      <section id="orcamento" class="section quote-section">
+
+  <div class="section-title">
+
+    <p class="eyebrow">04 — ORÇAMENTO</p>
+
+    <h2>
+      Vamos transformar sua
+      <span>ideia em realidade.</span>
+    </h2>
+
+    <p class="section-description">
+      Conte para nós sobre seu projeto e solicite um orçamento personalizado.
+    </p>
+
+  </div>
+
+
+  <form id="quoteForm" class="quote-form">
+
+    <div class="form-row">
+
+      <input
+        type="text"
+        id="quoteName"
+        placeholder="Seu nome"
+        required
+      >
+
+      <input
+        type="email"
+        id="quoteEmail"
+        placeholder="Seu e-mail"
+        required
+      >
+
+    </div>
+
+
+    <input
+      type="text"
+      id="quoteCompany"
+      placeholder="Nome da empresa"
+    >
+
+
+    <select id="quoteService" required>
+
+      <option value="">
+        Escolha seu serviço
+      </option>
+
+      <option value="Site Institucional">
+        Site Institucional - R$ 1.200
+      </option>
+
+      <option value="Landing Page">
+        Landing Page - R$ 600
+      </option>
+
+      <option value="Loja Virtual">
+        Loja Virtual - R$ 3.000
+      </option>
+
+      <option value="Redesign de Site">
+        Redesign de Site - R$ 1.400
+      </option>
+
+      <option value="Manutenção">
+        Manutenção - R$ 300/mês
+      </option>
+
+      <option value="Otimização SEO">
+        Otimização SEO - R$ 1.000
+      </option>
+
+    </select>
+
+
+    <textarea
+      id="quoteMessage"
+      rows="6"
+      placeholder="Conte um pouco sobre seu projeto..."
+      required
+    ></textarea>
+
+
+    <button
+      class="btn primary"
+      type="submit"
+    >
+      Solicitar orçamento
+    </button>
+
+
+    <p
+      id="quoteResult"
+      class="form-message"
+    ></p>
+
+
+    <a
+      href="https://wa.me/5511970171040?text=Ol%C3%A1%2C%20CodeRise!%20Gostaria%20de%20falar%20sobre%20os%20servi%C3%A7os."
+      id="whatsappDirect"
+      class="btn whatsapp-button"
+      target="_blank"
+    >
+      💬 Falar diretamente pelo WhatsApp
+    </a>
+
+  </form>
+
+</section>
+
+    <section class="cta">
+      <div>
+        <p class="eyebrow">PRONTO PARA DAR O PRÓXIMO PASSO?</p>
+        <h2>Vamos criar o futuro <span>juntos.</span></h2>
+      </div>
+      <a href="#orcamento" class="btn primary">Começar projeto</a>
+    </section>
+
+   
+  </main>
+
+  <footer class="footer">
+
+  <div class="footer-content">
+
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="Logo CodeRise">
+      <p>
+        Transformando sua ideia em experiências digitais.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Processo</a>
+      <a href="#orcamento">Orçamento</a>
+    </div>
+
+    <div class="footer-contact">
+      <a
+        href="https://wa.me/5511970171040"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        💬 WhatsApp
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+      © <span id="year"></span> CodeRise. Todos os direitos reservados.
+    </p>
+
+    <p>
+      Desenvolvido por <strong>Murilo Donelli</strong>
+    </p>
+  </div>
+
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
